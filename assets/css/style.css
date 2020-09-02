@@ -1,0 +1,42 @@
+#inputValue {
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+}
+.form-group {
+  margin-bottom: 0.1rem;
+}
+#movies-searchable {
+  margin-top: 20px;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  overflow-x: auto;
+}
+
+section img {
+  width: 300px;
+  transition: 250ms all;
+}
+img:hover {
+  margin-left: 0 40px;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.content {
+  border: 1px solid blue;
+  display: none;
+}
+
+.content div {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}
+.content-display {
+  display: block;
+}
